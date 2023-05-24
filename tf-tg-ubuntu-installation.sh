@@ -35,5 +35,9 @@ chmod +x terragrunt_linux_amd64
 # Move the Terragrunt binary to the /usr/local/bin folder
 sudo mv terragrunt_linux_amd64 /usr/local/bin/terragrunt
 
+
+# Verify the installation
+terraform --version
+
 # Verify the installation
 terragrunt --version
