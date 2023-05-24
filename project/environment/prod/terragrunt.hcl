@@ -1,5 +1,5 @@
 terraform {
-  source = "../../s3-bucket-module"
+  source = "git::https://github.com/manikcloud/terragrunt-tutorials.git//project/s3-bucket-module"
 }
 
 locals {
